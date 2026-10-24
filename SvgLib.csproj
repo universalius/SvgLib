@@ -5,4 +5,12 @@
 		<Description>Lightweight SVG library for .NET Framework, .NET Standard and .NET Core.</Description>
 	</PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="SvgLib.Tests/**/*.cs" />
+    <EmbeddedResource Remove="SvgLib.Tests/**/*.resx" />
+    <None Remove="SvgLib.Tests/**/*" />
+    <Content Remove="SvgLib.Tests/**/*" />
+  </ItemGroup>
+
 </Project>
+

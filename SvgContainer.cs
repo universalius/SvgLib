@@ -10,8 +10,10 @@ namespace SvgLib
         }
 
         public SvgCircle AddCircle() => SvgCircle.Create(Element);
-        
+
         public SvgClipPath AddClipPath() => SvgClipPath.Create(Element);
+
+        public SvgDefs AddDefs() => SvgDefs.Create(Element);
 
         public SvgEllipse AddEllipse() => SvgEllipse.Create(Element);
 
@@ -24,6 +26,8 @@ namespace SvgLib
         public SvgMarker AddMarker() => SvgMarker.Create(Element);
 
         public SvgPath AddPath() => SvgPath.Create(Element);
+
+        public SvgPattern AddPattern() => SvgPattern.Create(Element);
         
         public SvgPolygon AddPolygon() => SvgPolygon.Create(Element);
         
